@@ -1,7 +1,9 @@
 # dex
 Decentralized exchange: for trading and order book
 
-![ecosystem](https://user-images.githubusercontent.com/87982183/211116116-697be9f6-5332-4f4b-925e-df0538112e08.jpg)
+![ecosystem](https://user-images.githubusercontent.com/87982183/211116527-09eb914a-bb08-40cd-9f3d-1b1a9d38a9ae.jpg)
+
+
 
 
 ## Process Flow
