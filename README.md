@@ -19,6 +19,6 @@ Decentralized exchange: for trading and order book
 
 
 ## 🔗 Links
-[![website]](https://www.poweralgo.in/)
+[![website](https://user-images.githubusercontent.com/87982183/211117597-1c1fa510-d57d-4b20-8f8b-70de744bdd4e.png)](https://www.poweralgo.in/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/poweralgo/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Invincible_SM)
