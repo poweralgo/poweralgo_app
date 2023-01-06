@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Softnio" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Fully featured and complete ICO Dashboard template for ICO backend management."
+    />
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="images/electric.png" />
+    <!-- Site Title  -->
+    <title>PowerAlgo_WebApp</title>
+    <!-- Vendor Bundle CSS -->
+    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=104" />
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/style.css?ver=104" />
+  </head>
+
+  <body class="page-ath">
+    <div class="page-ath-wrap">
+      <div class="page-ath-content">
+        <div class="page-ath-header">
+          <img src="images/el1.png" srcset="images/el1.png 1x" alt="logo" />
+        </div>
+        <div class="page-ath-form">
+          <h2 class="page-ath-heading">
+            Sign in <small>with your PowerAlgo Account</small>
+          </h2>
+          <form id="sign_in_form">
+            <div class="input-item">
+              <input
+                id="demo_email"
+                type="text"
+                placeholder="Enter Employee id or Mobile number"
+                class="input-bordered"
+              />
+            </div>
+            <div class="input-item">
+              <input
+                type="password"
+                id="demo_pass"
+                placeholder="Password"
+                class="input-bordered"
+              />
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="input-item text-left">
+                <input
+                  class="input-checkbox input-checkbox-md"
+                  id="remember-me"
+                  type="checkbox"
+                />
+                <label for="remember-me">Remember Me</label>
+              </div>
+              <div>
+                <a href="forgot.html">Forgot password?</a>
+                <div class="gaps-2x"></div>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-block">Sign In</button>
+          </form>
+          <div class="gaps-2x"></div>
+          <div class="gaps-2x"></div>
+          <div class="form-note">
+            Don’t have an account?
+            <a href="sign-up.html"> <strong>Sign up here</strong></a>
+          </div>
+        </div>
+        <div class="page-ath-footer">
+          <ul class="footer-links">
+            <li><a href="regular-page.html">Privacy Policy</a></li>
+            <li><a href="regular-page.html">Terms</a></li>
+            <li>&copy; 2021 PowerAlgo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="page-ath-gfx">
+        <div class="w-100 d-flex justify-content-center">
+          <div class="col-md-8 col-xl-5">
+            <img src="images/ath-gfx.png" alt="image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript (include all script here) -->
+    <script src="assets/js/jquery.bundle.js?ver=104"></script>
+    <script src="assets/js/script.js?ver=104"></script>
+    <script>
+      const form = document.getElementById("sign_in_form");
+      form.addEventListener("submit", logSubmit);
+
+      function logSubmit(event) {
+        const email = document.getElementById("demo_email");
+        const pass = document.getElementById("demo_pass");
+        event.preventDefault();
+        const baseURL = window.location.origin;
+        if(email.value === "demo" && pass.value === "demo"){
+            email.value = ''
+            pass.value = ''
+            window.location = `${baseURL}/index.html`
+        } else{
+            email.value = ''
+            pass.value = ''
+            alert("Username or password entered is incorrect")
+        }
+      }
+    </script>
+  </body>
+</html>
