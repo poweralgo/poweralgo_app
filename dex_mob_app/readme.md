@@ -7,7 +7,7 @@ In this solution, we will illustrate how to connect buyers and sellers and facil
 
 ## Process Flow
 
-
+![process_flow](https://user-images.githubusercontent.com/87982183/211114567-82578cb5-7ecb-4180-ade5-517d26156753.png)
 
 ## Implementation
 To implement this solution, four basic operations are required. A user should be able to open, close, or execute an order. A user should also be able to list all open orders.
