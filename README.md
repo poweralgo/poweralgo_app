@@ -14,7 +14,14 @@ The process flow is divided into 3 phases. Below are the 3 phases.
 
 ![process_flow](https://user-images.githubusercontent.com/87982183/211114567-82578cb5-7ecb-4180-ade5-517d26156753.png)
 
+PRE EXECUTION
+In this phase the market will be created for the next hour (block number based) cycle. The consumers will place bid (energy requirement) for the next hour cycle based on assumption and calculation.
 
+EXECUTION
+In the execution phase, the consumer will receive the required energy from the prosumers as decided in the hour ahead market. The energy will be transferred via the micro grid. However, in event of prosumer not generating enough energy or the consumer requiring more energy than bought from the market. The consumer will receive the surplus energy from the main grid.
+
+SETTLEMENT
+In the settlement phase, atomic transfer of tokens will happen on the Algorand ledger based on the energy transfer. Atomic transfer requires energy consumption details obtained via smart meters (data loggers). On Algorand, the tokens are transferred via energy pool. Based on the pre-decided amount the stable coins will be transferred to the prosumer providing the energy to the consumer. 
 
 ## Web application
 
