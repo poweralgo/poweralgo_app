@@ -27,6 +27,10 @@ In the settlement phase, atomic transfer of tokens will happen on the Algorand l
 
 The web application will be used by the Regulators and Admins for operations. User will only use the web application for account creation and KYC. 
 
+https://poweralgo.netlify.app/index.html
+
+[![website](https://www.poweralgo.in/)
+
 ![web_shots](https://user-images.githubusercontent.com/87982183/211121488-1cb29a12-00b9-4380-b6f7-f6d7f51b4a60.png)
 
 
