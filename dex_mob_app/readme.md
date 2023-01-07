@@ -29,13 +29,16 @@ In the settlement phase, atomic transfer of tokens will happen on the Algorand l
 
 The data is read from the smart meters (data loggers) using blockchain based authentication in order to ensure that the readings are not tempered. 
 
-Blockchain based authentication logic. 
+![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150654-05adac4f-a255-426c-8a90-267d7cf16e28.png)
+
+
+## Blockchain based authentication for hardware
 
 The data obtained from the smart meters will play a crucial role in the settlement process. In order to ensure that the data received is not tempered with and can be supplied to the delegated stateless contract for execution, we have implemented blockchain based authentication system.
 
 This process is inspired from the SSL protocol where the certificates are issued by a centralized authority. In our case, the certificate (private key and identity) will be provided by Algorand. 
 
-![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150654-05adac4f-a255-426c-8a90-267d7cf16e28.png)
+[Process flow is available here]([https://poweralgo.netlify.app/index.html](https://medium.com/blockchain-blog/blockchain-based-authentication-of-devices-and-people-c7efcfcf0b32))
 
 
 ## Implementation
