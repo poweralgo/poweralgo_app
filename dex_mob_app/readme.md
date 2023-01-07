@@ -5,9 +5,18 @@ Decentralized exchange for energy trading and atomic settlement
 ## Description
 In this solution, we will illustrate how to connect buyers and sellers and facilitate exchange of assets in a decentralized app. We will use limit order contracts as the method of exchange, where a buyer opens an order and specifies the asset(energy token) they want to purchase and at what exchange rate(either ALGO or customized). This order then resides on the blockchain where any seller of the asset can fulfill the order at a later time within 15 mins slot. The solution also offers the ability for the buyer to close the order at any time.
 
-## Process Flow
+## Pre-execution stage
 
-![process_flow](https://user-images.githubusercontent.com/87982183/211114567-82578cb5-7ecb-4180-ade5-517d26156753.png)
+![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150172-fa421c94-f69f-4b30-8c68-dda1c1f030f1.png)
+
+## Execution stage
+
+![execution_stage](https://user-images.githubusercontent.com/87982183/211150294-66439219-7e21-445b-8973-e2295b119aee.png)
+
+## Settlement (atomic transfer)
+
+![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150296-1eda353c-7f04-45a5-ae5f-0d5e61ae0418.png)
+
 
 ## Implementation
 To implement this solution, four basic operations are required. A user should be able to open, close, or execute an order. A user should also be able to list all open orders.
