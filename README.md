@@ -7,6 +7,10 @@ Decentralized exchange: for trading and order book
 
 
 ## Process Flow
+The process flow is divided into 3 phases. Below are the 3 phases.
+1. Pre execution (Market)
+2. Execution (Hardware)
+3. Settlement (Atomic transfer)
 
 ![process_flow](https://user-images.githubusercontent.com/87982183/211114567-82578cb5-7ecb-4180-ade5-517d26156753.png)
 
