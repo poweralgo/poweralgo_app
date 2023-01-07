@@ -1,6 +1,4 @@
-# Project Title
-
-Decentralized exchange for energy trading and atomic settlement
+# Decentralized exchange for energy trading and atomic settlement
 
 ## Description
 In this solution, we will illustrate how to connect buyers and sellers and facilitate exchange of assets in a decentralized app. We will use limit order contracts as the method of exchange, where a buyer opens an order and specifies the asset(energy token) they want to purchase and at what exchange rate(either ALGO or customized). This order then resides on the blockchain where any seller of the asset can fulfill the order at a later time within 15 mins slot. The solution also offers the ability for the buyer to close the order at any time.
@@ -38,7 +36,7 @@ The data obtained from the smart meters will play a crucial role in the settleme
 
 This process is inspired from the SSL protocol where the certificates are issued by a centralized authority. In our case, the certificate (private key and identity) will be provided by Algorand. 
 
-[Process flow is available here]([https://poweralgo.netlify.app/index.html](https://medium.com/blockchain-blog/blockchain-based-authentication-of-devices-and-people-c7efcfcf0b32))
+[Click here for full article](https://medium.com/blockchain-blog/blockchain-based-authentication-of-devices-and-people-c7efcfcf0b32)
 
 
 ## Implementation
