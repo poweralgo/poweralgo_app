@@ -12,9 +12,9 @@ Decentralized exchange: for trading and order book
 
 
 
-## Screenshot website
+## Web application
 
-![process_flow](https://user-images.githubusercontent.com/87982183/211114567-82578cb5-7ecb-4180-ade5-517d26156753.png)
+![web_shots](https://user-images.githubusercontent.com/87982183/211121488-1cb29a12-00b9-4380-b6f7-f6d7f51b4a60.png)
 
 
 
