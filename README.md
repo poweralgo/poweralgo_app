@@ -18,6 +18,11 @@ Decentralized exchange: for trading and order book
 
 
 
+## Mobile Application
+
+<img width="391" alt="mobile_shots" src="https://user-images.githubusercontent.com/87982183/211121698-820dfc42-71f1-4516-b50c-b16143681cb2.png">
+
+
 ## 🔗 Links
 [![website](https://user-images.githubusercontent.com/87982183/211117597-1c1fa510-d57d-4b20-8f8b-70de744bdd4e.png)](https://www.poweralgo.in/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/poweralgo/)
