@@ -7,13 +7,33 @@ In this solution, we will illustrate how to connect buyers and sellers and facil
 
 ## Pre-execution stage
 
+The pre execution phase is all about the hour ahead market where energy requirements of the consumers are fulfilled for the next hour cycle. The hour ahead market is created via stateful smart contract and mobile application.
+
+Pre execution market contains the market related part and scheduling of the orders for the execution stage. The prosumers will fill the order based on their capacity (power generation from the solar grid). However, if the consumer is not able to get his energy requirement fulfilled by any prosumer, he/she will get the additional energy from the main grid at Discom’s price. 
+
+Stateful smart contract local int storage is used for user’s open orders and local byte is storage is used for scheduled orders to be executed in the next stage (Execution). If any open order by consumer is not filled in the market, it will be filled by the grid. Grid is also working as a prosumer on the network. Once the orders are scheduled, it will be sent to the respective smart meters for transmission in the execution stage. 
+
 ![pre_execution](https://user-images.githubusercontent.com/87982183/211150562-15ddbd29-0ada-411e-8b49-0a0f47afbc24.png)
 
 ## Execution stage
 
+In the execution phase, the consumer will receive the required energy from the prosumers as decided in the hour ahead market. The energy will be transferred via the micro grid. However, in event of prosumer not generating enough energy or the consumer requiring more energy than bought from the market.
+
+The web server send instructions to the smart meters. The grid act as a prosumer on the network. The indexer clients is used to obtain the block number from Algorand Testnet, which in turn helps in keeping time for sending instructions and initiation settlement.
+
 ![execution_stage](https://user-images.githubusercontent.com/87982183/211150561-c9ddfd9a-d505-4fdf-80fc-b84c218486a1.png)
 
 ## Settlement (atomic transfer)
+
+In the settlement phase, atomic transfer of tokens will happen on the Algorand ledger based on the energy transfer. Atomic transfer requires energy consumption details obtained via smart meters (data loggers).
+
+The data is read from the smart meters (data loggers) using blockchain based authentication in order to ensure that the readings are not tempered. 
+
+Blockchain based authentication logic. 
+
+The data obtained from the smart meters will play a crucial role in the settlement process. In order to ensure that the data received is not tempered with and can be supplied to the delegated stateless contract for execution, we have implemented blockchain based authentication system.
+
+This process is inspired from the SSL protocol where the certificates are issued by a centralized authority. In our case, the certificate (private key and identity) will be provided by Algorand. 
 
 ![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150654-05adac4f-a255-426c-8a90-267d7cf16e28.png)
 
