@@ -15,7 +15,7 @@ In this solution, we will illustrate how to connect buyers and sellers and facil
 
 ## Settlement (atomic transfer)
 
-![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150557-7d10b758-80ed-42ce-ae2c-873d89123ad2.png)
+![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150654-05adac4f-a255-426c-8a90-267d7cf16e28.png)
 
 
 ## Implementation
