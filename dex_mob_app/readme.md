@@ -7,15 +7,15 @@ In this solution, we will illustrate how to connect buyers and sellers and facil
 
 ## Pre-execution stage
 
-![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150172-fa421c94-f69f-4b30-8c68-dda1c1f030f1.png)
+![pre_execution](https://user-images.githubusercontent.com/87982183/211150562-15ddbd29-0ada-411e-8b49-0a0f47afbc24.png)
 
 ## Execution stage
 
-![execution_stage](https://user-images.githubusercontent.com/87982183/211150294-66439219-7e21-445b-8973-e2295b119aee.png)
+![execution_stage](https://user-images.githubusercontent.com/87982183/211150561-c9ddfd9a-d505-4fdf-80fc-b84c218486a1.png)
 
 ## Settlement (atomic transfer)
 
-![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150296-1eda353c-7f04-45a5-ae5f-0d5e61ae0418.png)
+![atomic_transfer](https://user-images.githubusercontent.com/87982183/211150557-7d10b758-80ed-42ce-ae2c-873d89123ad2.png)
 
 
 ## Implementation
