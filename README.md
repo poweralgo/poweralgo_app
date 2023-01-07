@@ -25,11 +25,14 @@ In the settlement phase, atomic transfer of tokens will happen on the Algorand l
 
 ## Web application
 
+The web application will be used by the Regulators and Admins for operations. User will only use the web application for account creation and KYC. 
+
 ![web_shots](https://user-images.githubusercontent.com/87982183/211121488-1cb29a12-00b9-4380-b6f7-f6d7f51b4a60.png)
 
 
-
 ## Mobile Application
+
+The mobile application will be used by the prosumers and consumers. Prosumer will be able to buy and sell energy on the platform. However, the consumer will only be able to buy energy on the platform. 
 
 <img width="391" alt="mobile_shots" src="https://user-images.githubusercontent.com/87982183/211121698-820dfc42-71f1-4516-b50c-b16143681cb2.png">
 
